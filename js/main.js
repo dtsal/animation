@@ -302,6 +302,7 @@ window.onload =function() {
 
 
     //tl.set(a,{scale:1.2});
+    // creating timline
 
     tl = new TimelineMax;
     tl_tab = new TimelineMax;
