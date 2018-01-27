@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url(../fonts/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url(../fonts/Comfortaa-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: 'Comfortaa-Light';
+    src: url(../fonts/Comfortaa-Light.ttf);
+}
+
+
+#page{
+    padding:0;
+    background-color:#fff;
+    width:auto;
+    margin:0;
+    position:relative;
+}
+
+#afterheader
+
+{
+    position: absolute;
+    height: 580px;
+    width: 100%;
+    display: block;
+
+}
+
+#afterheader #tabs {
+    position: relative;
+    float: left;
+    height:100%;
+    width: 5%;
+    display: block;
+}
+
+#tabs #svg_tabs {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+.tabs_text {
+    transform: rotate(-90deg);
+    font-family: "Comfortaa-Regular";
+    font-size: 18px;
+    color: #535353;
+    position: relative;
+
+}
+
+
+#afterheader #chaos
+{
+    height: 100%;
+    width: 35%;
+    position: relative;
+    float: left;
+    display: block;
+
+}
+
+#desktop_svg {
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-bottom: 1%;
+
+}
+
+
+#afterheader #description {
+    float: left;
+    width: 49%;
+    height: inherit;
+    position: relative;
+    display: block;
+}
+
+

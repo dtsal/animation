@@ -1,0 +1,18 @@
+#header
+{
+    height: 300px;
+    width: auto;
+    border: #7b7b7b solid 1px;
+
+}
+
+body {
+    margin:0;background-color:#fff;
+}
+#page{
+    padding:0;
+    background-color:#fff;
+    width:auto;
+    margin:0;
+    position:relative;
+}
