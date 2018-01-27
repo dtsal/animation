@@ -343,7 +343,7 @@ window.onload =function() {
 
 
     // Moving bl_polygon_6 to the place of bl_polygon_desktop_1  269.6,55 42.3,25.4l x42.3-x269.6 = -227    y25.41-y55 = -29.59
-
+    // -------------------------------to refactore-----------------------------------------------------------------
     tl.to(polygons[5],2,{x: -227,y: -29.59 ,rotation: '360', transformOrigin: "center center"},0)
       .to(polygons[5],1.5,{x: -227,y: -29.59 ,scale:0,rotation: '360', transformOrigin: "center center"},2.5);
 
@@ -353,7 +353,7 @@ window.onload =function() {
     tl.to(polygons[3],2,{x:-140,y:0,opacity:0,rotation: '360', transformOrigin: "center center",ease: 'Linear.easeNone'},0);
     tl.to(polygons[4],2,{x:-120,y:0,opacity:0,rotation: '360', transformOrigin: "center center",ease: 'Linear.easeNone'},0);
 
-
+   //-----------------------------------------------------------------------------------------------------------------------------
 
 
 
